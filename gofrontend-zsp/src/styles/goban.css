@@ -1,0 +1,26 @@
+.goban {
+    --board-border-width: .25em;
+    --board-border-color: #CA933A;
+
+    --board-background-color: #EBB55B;
+    --board-foreground-color: #5E2E0C;
+
+    --black-background-color: #222;
+    --black-foreground-color: #eee;
+
+    --white-background-color: #eee;
+    --white-foreground-color: #222;
+
+    position: relative;
+    border: var(--board-border-width) solid var(--board-border-color);
+    color: var(--board-foreground-color);
+    padding: .25em;
+
+    background: url('../assets/board.png') var(--board-background-color);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    /* font-size: 0; */
+    /* display: inline-block; */
+    /* vertical-align: top;  */
+}
